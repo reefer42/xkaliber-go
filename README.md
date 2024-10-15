@@ -1,5 +1,6 @@
 # xkaliber-go
 legion go xkaliber os 
+https://youtu.be/DncBiXCuKzM?si=fQ5LpOkCE-VviueS   PREVIEV
 # xkaliber-go
 legion go xkaliber os 
 so to start off this is a os i made for desktop that i use daily for couple years now still minor bugs and thats on the legion go 
