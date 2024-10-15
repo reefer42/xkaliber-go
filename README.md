@@ -1,4 +1,5 @@
 # xkaliber-go
+FOR THE LEGION GO
 legion go xkaliber os 
 so to start off this is a os i made for desktop that i use daily for couple years now still minor bugs and thats on the legion go 
 i did my best with what i know how todo and im kinda throwing in the white flag if anyone else wants a unique debian for lego 
