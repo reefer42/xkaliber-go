@@ -53,6 +53,6 @@ this the updated image with rocm and my attempt to replace firmware-amd-graphics
 to modify the dns cache server
 sudo nano /etc/dnsmasq.conf
 
-discover n other markets are also there but everything as whole will show in pop shop to elaborate this isnt a distrobox not sure wtf i did it was long ago but debian and ubuntu using a shared co-dependant appstream and as long as this remains book worm there should be no issues and i personally used this for serveral years now and the original system was actually a kali based on kali linux which do i have some scripts kali specific to install and setup non kali traditional things like steam gaming etc 
+discover n other markets are also there but everything as whole will show in pop shop to elaborate this isnt a distrobox not sure wtf i did it was long ago but debian and ubuntu using a shared co-dependant appstream and as long as this remains book worm there should be no issues and i personally used this for serveral years now and the original system was actually based on kali linux which do i have some scripts kali specific to install and setup non kali traditional things like steam gaming etc 
 
  
