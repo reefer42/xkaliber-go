@@ -44,3 +44,7 @@ id be willing to continue this if i had assistance but for now yall have at it .
 
 PS DO NOT ASSOCIATE ANY SCRIPT FROM OTHER BRANCHES OR PROJECTS HERE U WILL BREAK XKALIBER . 
 AS LONG AS YOU NEVER APT DIST-UPGRADE NOTHING SHOULD EVER GO WRONG WITH THIS SYSTEM
+
+
+https://drive.google.com/file/d/1pmCn6dgDE7JOl8AqzPEI2HHfH9w_qutU/view?usp=sharing
+this the updated image with rocm and my attempt to replace firmware-amd-graphics with current trixie version :
