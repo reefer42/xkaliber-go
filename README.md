@@ -58,3 +58,6 @@ discover n other markets are also there but everything as whole will show in pop
  
 ***ONE MAJOR COMMENT TO CONCIDER***
 you do have the option to just disable to mouse cursor and u really dont need it the os is fully touch friendly and has a more reliable keyboard compared to maliit on bazzite i can actually use the keyoard in any and all text fields including aplications non system related
+
+I am still continuing to polish this as solutions come along hand hel daemon
+iwill include in the next image link as i now have gotton it functional 
