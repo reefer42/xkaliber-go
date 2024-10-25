@@ -58,14 +58,20 @@ discover n other markets are also there but everything as whole will show in pop
 #########$what has no issues #########
 
 pc
+
 laptops
+
 steamdeck
 
 #########what has issues######
 
-legio go : mouse cursor when visible creates a flicker
+legion go : mouse cursor when visible creates a flicker
 
 #####nvidia users#####
+
+########unknown#######
+
+asus ally
 
 your not left out. go to xkaliber repo download utility (only use this for your nvidia drivers) 
 so do nornal install of the os and use that utility to easy install your drivers
