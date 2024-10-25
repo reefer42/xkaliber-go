@@ -67,12 +67,11 @@ steamdeck
 
 legion go : mouse cursor when visible creates a flicker
 
-#####nvidia users#####
-
 ########unknown#######
 
 asus ally
 
+#####nvidia users#####
 your not left out. go to xkaliber repo download utility (only use this for your nvidia drivers) 
 so do nornal install of the os and use that utility to easy install your drivers
  
