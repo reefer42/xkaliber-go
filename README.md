@@ -61,3 +61,10 @@ you do have the option to just disable to mouse cursor and u really dont need it
 
 I am still continuing to polish this as solutions come along hand hel daemon
 iwill include in the next image link as i now have gotton it functional 
+
+##########
+after some suggestions between former testers I've decided to now include a full-blown Kali Linux edition 
+this will not be focused and tailored to hacking this will be taking advantage of the fact that 
+has an insane high support for AMD micro code and AMD support and will stay on the recent available 
+AMD drivers. all game related things will be isolated to prevent changes from the bleeding edge kernel and updates from mainline. I will be providing support for everything including virtual reality 
+Rocm drivers and full AI support via rocm.
