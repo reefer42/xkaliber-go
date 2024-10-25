@@ -68,3 +68,13 @@ this will not be focused and tailored to hacking this will be taking advantage o
 has an insane high support for AMD micro code and AMD support and will stay on the recent available 
 AMD drivers. all game related things will be isolated to prevent changes from the bleeding edge kernel and updates from mainline. I will be providing support for everything including virtual reality 
 Rocm drivers and full AI support via rocm.
+
+
+so i said i was doing a kali image well im providing current beta 
+this doesnt have hand held daemon yet.
+
+changes: rebuilt kernel 6.8 to support gbinder waydroid 
+and rocm . Added lib5 set up prequisites for docker distro box
+nothing personalize related content has been really worked in 
+but there is a desktop environment and the things that are available do work.
+image is currently uploading and will be available soon.
