@@ -54,7 +54,13 @@ to modify the dns cache server
 sudo nano /etc/dnsmasq.conf
 
 discover n other markets are also there but everything as whole will show in pop shop to elaborate this isnt a distrobox not sure wtf i did it was long ago but debian and ubuntu using a shared co-dependant appstream and as long as this remains book worm there should be no issues and i personally used this for serveral years now and the original system was actually based on kali linux which do i have some scripts kali specific to install and setup non kali traditional things like steam gaming etc 
+#########$what has no issues #########
+pc
+laptops
+steamdeck
 
+#########what has issues######
+legio go : mouse cursor when visible creates a flicker
 
 #####nvidia users#####
 your not left out. go to xkaliber repo download utility (only use this for your nvidia drivers) 
