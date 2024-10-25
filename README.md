@@ -97,3 +97,5 @@ and rocm . Added lib5 set up prequisites for docker distro box
 nothing personalize related content has been really worked in 
 but there is a desktop environment and the things that are available do work.
 image is currently uploading and will be available soon.
+
+kali image doesnt have flicker on legion go !!!!!!!!!!!
