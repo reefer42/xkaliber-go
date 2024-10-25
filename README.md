@@ -1,101 +1,60 @@
 # xkaliber-go
-legion go xkaliber os 
-https://youtu.be/DncBiXCuKzM?si=fQ5LpOkCE-VviueS   PREVIEW
+Legion Go xkaliber OS
+https://youtu.be/DncBiXCuKzM?si=fQ5LpOkCE-VviueS PREVIEW
 # xkaliber-go
-legion go xkaliber os 
-so to start off this is a os i made for desktop that i use daily for couple years now still minor bugs and thats on the legion go 
-i did my best with what i know how todo and im kinda throwing in the white flag if anyone else wants a unique debian for lego 
-and has the experience to solve the remaining bugs have at it. (it is daily use capable no issues occur while gaming and only real issue occurs when the 
-mouse cursor is moved and displayed out side that me personally im cool with it dont bother me.
+Legion Go xkaliber OS
+I created a unique Debian-based OS that I use daily, still with minor bugs due to the Legion Go platform. If you're experienced and want to tackle these remaining issues, feel free to take it on!
 
-features ok so i have no build script this was made a while ago no idea where the sht is but off top my head this has
+Features:
 
-ROCM DRIVERS MY BOY ALREADY IN HERE YO
+ROCM drivers pre-installed, no need for extra setup
 
-WAYDROID AND IF FOR SOME REASON DOESNT LAUNCH JUSTO TYPE sudo systemctl stop dnsmasq
+Waydroid and Pop Shop, a non-traditional app store that allows for easy management of your host system
 
-POP SHOP i didnt want just another debian wanted something more unique and how this store was
-added isnt traditional as you can do everything from pop shop that includes the host u can literly 
-depend on pop as thats what i intended it be here for
+Local DNS Cache Server for improved network speeds and reduced latency
 
-LOCAL DNS CACHE SERVER alot of people complain about net speeds and lantencys so i targeted a major player in this problem by removing the need
-to on-goingly make these hand shakes and authentications use cache tokens of the previuis engagment which means a good of bit of bandwidth will no longer 
-(waist the time to reach out over the internet by using locally stored keys thus improving networks speeds all around in all factors
+Four optional preinstalled desktops, with Plasma Mobile as the dedicated desktop environment
+No TDP support, but I planned to add it - just ran into some issues.
 
-has 4 optional preinstalled desks that are selectable from the login screen and plasma mobile is the dedcated desktop this was tailored to support just fyi
+Removed old firmware-amd-graphics and replaced it with the latest Trixie version (still working on fixing flicker)
 
-i removed old firmware-amd-graphics witht the latest in trixie and still didnt fix flicker
+System-wide keyboard support in Plasma Mobile
 
-the keyboard in plasma mobile works fully system wide and not half @$$ like other systems
+Docker installed, but requires manual enablement and permissions setup
 
-docker is imnstalled u have to systemctl enable it and do the command for permissions of users
+## ISO Download Link: https://drive.google.com/file/d/1dpMj3h90YysO0wE-eyOfFe7lG6BNCod2/view?usp=drive_link
+## Password: 0000
+I'd be happy to continue improving this OS with assistance, but for now, feel free to take it and modify as you see fit!
 
-tdp not added i was going to but had an issue getting it to fully support so i removed it.
-
-this uses old skool seperated wayland and xserver sesssions because in my opinion wayland aint there yet so i rather swithc to x11 desktop for things like vr etc
-
-THIS IS A LIVE ISO WHICH ALL THIS WAS BUILD AS X ROOT AS ITS SIMPLER IN MY OPINION SO BEING THERES NO SCRIPT THE ONLY METHOD THATS CONVEINENT AND IS METHOD I HAVE USED IS CUBIC
-
-https://github.com/PJ-Singh-001/Cubic
-
-FOR THOSE WHO DONT KNOW CUBIC IS A SHORTCUT FOR BUILDING A OS IF ALL YOUR SKILLS MOSTLY CONSIST OF POWER USER STYLE DEVELOPEMENT THIS IS FOR YOU IT WILL HAND THE CONTAINER U JUST CODE 
-##ISO DOWNLOAD LINK https://drive.google.com/file/d/1dpMj3h90YysO0wE-eyOfFe7lG6BNCod2/view?usp=drive_link********             AND PASSWORD 0000 
-id be willing to continue this if i had assistance but for now yall have at it . discord: ERPlegend 
-
-PS DO NOT ASSOCIATE ANY SCRIPT FROM OTHER BRANCHES OR PROJECTS HERE U WILL BREAK XKALIBER . 
-AS LONG AS YOU NEVER APT DIST-UPGRADE NOTHING SHOULD EVER GO WRONG WITH THIS SYSTEM
-
+**DO NOT use scripts from other branches or projects; doing so will break xkaliber.**
 
 https://drive.google.com/file/d/1pmCn6dgDE7JOl8AqzPEI2HHfH9w_qutU/view?usp=sharing
-this the updated image with rocm and my attempt to replace firmware-amd-graphics with current trixie version :
+This is the updated image with ROCM and my attempt to replace firmware-amd-graphics with current Trixie version.
 
+To modify the DNS Cache Server, run `sudo nano /etc/dnsmasq.conf`.
 
-to modify the dns cache server
-sudo nano /etc/dnsmasq.conf
+## Known Issues:
 
-discover n other markets are also there but everything as whole will show in pop shop to elaborate this isnt a distrobox not sure wtf i did it was long ago but debian and ubuntu using a shared co-dependant appstream and as long as this remains book worm there should be no issues and i personally used this for serveral years now and the original system was actually based on kali linux which do i have some scripts kali specific to install and setup non kali traditional things like steam gaming etc 
+Legion Go: Mouse cursor flicker when visible
 
-#########$what has no issues #########
+Unknown: Asus Ally (testing required)
 
-pc
+Nvidia users: Download and use the xkaliber repo's utility to easily install your drivers
 
-laptops
+**A Major Comment:** You can always disable the mouse cursor, as the OS is fully touch-friendly with a reliable keyboard. No Maliit on Bazlite!
 
-steamdeck
+I'm still working on polishing this OS as solutions come along. Hand-held daemon will be included in future image links.
 
-#########what has issues######
+## Update:
+After suggestions from former testers, I've decided to include a full-blown Kali Linux edition, tailored for AMD support and drivers, with focus on gaming (including virtual reality), ROCm, and AI support via ROCm.
 
-legion go : mouse cursor when visible creates a flicker
+Kali Image Beta is now available! It doesn't have the hand-held daemon yet but includes:
 
-########unknown#######
+Rebuilt kernel 6.8 for GBinder Waydroid and ROCm
+Added lib5 and set up prerequisites for Docker Distro Box
 
-asus ally
+No personalized content has been worked in, but the desktop environment and basic functionality do work.
 
-#####nvidia users#####
-your not left out. go to xkaliber repo download utility (only use this for your nvidia drivers) 
-so do nornal install of the os and use that utility to easy install your drivers
- 
-***ONE MAJOR COMMENT TO CONCIDER***
-you do have the option to just disable to mouse cursor and u really dont need it the os is fully touch friendly and has a more reliable keyboard compared to maliit on bazzite i can actually use the keyoard in any and all text fields including aplications non system related
+The image is currently uploading and will be available soon.
 
-I am still continuing to polish this as solutions come along hand hel daemon
-iwill include in the next image link as i now have gotton it functional 
-
-##########
-after some suggestions between former testers I've decided to now include a full-blown Kali Linux edition 
-this will not be focused and tailored to hacking this will be taking advantage of the fact that 
-has an insane high support for AMD micro code and AMD support and will stay on the recent available 
-AMD drivers. all game related things will be isolated to prevent changes from the bleeding edge kernel and updates from mainline. I will be providing support for everything including virtual reality 
-Rocm drivers and full AI support via rocm.
-
-
-so i said i was doing a kali image well im providing current beta 
-this doesnt have hand held daemon yet.
-
-changes: rebuilt kernel 6.8 to support gbinder waydroid 
-and rocm . Added lib5 set up prequisites for docker distro box
-nothing personalize related content has been really worked in 
-but there is a desktop environment and the things that are available do work.
-image is currently uploading and will be available soon.
-
-kali image doesnt have flicker on legion go !!!!!!!!!!!
+Kali Image does NOT have flicker on Legion Go!
